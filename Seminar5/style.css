@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    padding-bottom: 192px;
+}
+
+.item_header {
+    height: 291px;
+    padding: 40px 60px 25px 30px;
+}
+
+.white {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.img_header {
+    margin-bottom: 25px;
+    
+}
+
+.title_header{
+    margin-bottom: 17px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_header {
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 15px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.link_header {
+    color: #000;
+    font-size: 11px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    justify-content: center;
+    width: 682px;
+    margin-left: 244px;
+    margin-bottom: 50px;
+}
+
+.title_main {
+    color: #000;
+    font-size: 45px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.text_main {
+    width: 682px;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.main {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.item_main {
+    width: 370px;
+    height: 514px;
+    padding: 15px 30px 50px 30px;
+}
+
+.subtitle_main {
+    color: #000;
+    font-size: 24px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.content_main {
+    color: #AAA;
+    text-align: center;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 39px;
+}
+
+.btn { 
+    padding: 15px 36px 16px 35px;
+    color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-weight: 600;
+    background: #F25822;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 70px;
+    border: 3px solid transparent;
+}
+
+.icon {
+    margin-left: 6px;
+}
+
+.btn:hover {
+    border: 3px, solid, #F25822;
+    color: #888;
+    background-color: #FFF;
+    transition: all 0,3s;
+}
